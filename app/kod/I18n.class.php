@@ -22,7 +22,7 @@ class I18n{
 		$lang  = "en";
 		$arr   = $GLOBALS['config']['settingAll']['language'];
 		$langs = array();
-		if(!$arr) return 'zh-CN';
+		if(!$arr) return 'zh-TW';
 		foreach ($arr as $key => $value) {
 			$langs[$key] = $key;
 		}
