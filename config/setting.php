@@ -53,13 +53,13 @@ $config['defaultPlugins'] = array(
 $config['settingSystemDefault'] = array(
 	'systemPassword'	=> rand_string(20),
 	'systemName'		=> "KodExplorer",
-	'systemDesc'		=> "——可道云.资源管理器",
+	'systemDesc'		=> "— Edit by Benjamin",
 	'pathHidden'		=> "Thumb.db,.DS_Store,.gitignore,.git",//目录列表隐藏的项
 	'autoLogin'			=> "0",			// 是否自动登录；登录用户为guest
 	'needCheckCode'		=> "0",			// 登陆是否开启验证码；默认关闭
 	'firstIn'			=> "explorer",	// 登录后默认进入[explorer desktop,editor]
 
-	'newUserApp'		=> "trello,一起写office,微信,365日历,石墨文档,ProcessOn,计算器,icloud,OfficeConverter",
+	'newUserApp'		=> "trello,一起寫office,微信,365 Calendar,石墨文檔,ProcessOn,計算機,icloud,OfficeConverter",
 	'newUserFolder'		=> "document,desktop,pictures,music",
 	'newGroupFolder'	=> "share,doc,pictures",	//新建分组默认建立文件夹
 	'groupShareFolder'	=> "share",
